@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+html, body{
+	margin: 0;
+    font-size: 100%;
+    background: #FFFFE0 !important;
+    font-family: 'Dancing Script', cursive !important;
+    font-size: 25px;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #ffd1dc;
+}
+
+.navbar li a {
+    color: #9A0E14 !important;
+}
+
+.navbar li a:hover {
+    color: #EA151E !important;
+}
+
+.navbar-nav  li.active a.nav-link {
+    color: #EA151E !important;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #ffd1dc;
+    z-index: 1;
+    list-style: none;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.carousel-inner img {
+    width: 100%;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card img{
+    width: 100%;
+}
+
+h5{
+    font-weight: 600 !important;
+    font-size: 35px !important;
+}
+
+
+
+.box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background: #ffd1dc;
+    transition: .5s;
+  }
+  .box:hover {
+    height: 400px;
+  }
+  .box .imgBx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .box .imgBx img {
+    max-width: 100%;
+    opacity: 1;
+    transition: .5s;
+  }
+  .box:hover .imgBx img {
+    opacity: 1;
+  }
+  .box:before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -1;
+  }
+  .box:after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -2;
+    filter: blur(40px);
+  }
+
+  .box .content {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    height: 90px;
+    background: rgba(0, 0, 0, 0.04);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  .box:hover .content {
+    opacity: 1;
+  }
+  .box .content h2 {
+    font-size: 20px;
+    color: #9A0E14;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .box .content h2 span {
+    font-size: 14px;
+    color: #9A0E14;
+    font-weight: 200;
+
+    letter-spacing: 2px;
+  }   
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
+
+section#contact{
+   background: url(../images/album_anh/hoian.jpg) no-repeat center;
+    background-size: 100% 100%;
+}
+
+.middle-heading h3 {
+    font-size: 55px;
+    color: #9A0E14;
+    text-shadow: 0px 1px 1px #000000;
+    text-transform: capitalize;
+    font-weight: 700;
+    padding-top: 35px;
+
+}
+
+.middle-heading1 h3 {
+    font-size: 55px;
+    color: #9A0E14;
+    text-shadow: 0px 1px 1px #000000;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.agileinfo_mail_grids {
+    background: rgba(255, 255, 255, 0.301);
+    padding: 2em 1em;
+    border-radius: 5px;
+  border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+}
+
+.contact-info1 {
+    padding: 1em;
+}
+
+.agileinfo_mail_grid_right input[type="text"], .agileinfo_mail_grid_right input[type="email"], .agileinfo_mail_grid_right textarea {
+    outline: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #555;
+    background: #e4e4e4 !important;
+    width: 100%;
+    border: none;
+}
+
+.agileinfo_mail_grid_right textarea {
+    min-height: 200px;
+    width: 100%;
+    resize: none;
+}
+
+.agileinfo_mail_grid_right input[type="submit"]{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+    background:  #9A0E14;
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+}
+
+.agileinfo_mail_grid_right input[type="submit"]:hover{
+    background: rgb(248, 111, 134);
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+}
+
+h4.heading-con-w3ls {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.contact-info p {
+    color: #9A0E14;
+    font-size: 15px;
+    letter-spacing: .5px;
+}
+
+.contact-info p span.fa {
+    color:#9A0E14;
+    font-size: 18px;
+}
+
+.contact-info p a {
+    font-size: 17px;
+    color:  #9A0E14;
+}
+
+.contact-info h4 {
+    font-size: 22px;
+    color:#9A0E14;
+    text-transform: capitalize;
+}
+
+.social ul li {
+    display: inline-block;
+}
+
+.social ul li a {
+    color: #999;
+    text-align: center;
+}
+
+.social ul li a i {
+    height: 42px;
+    width: 42px;
+    font-size: 13px;
+    background: transparent;
+    line-height: 42px;
+    color:#9A0E14;
+    border: 1px solid #9A0E14;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+.copyright p, .copyright p a {
+    color: #000;
+    font-size: 20px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.social ul li a i:hover {
+    background: rgb(248, 111, 134);
+    color: #fff;
+    border: 1px solid #9A0E14;
+}
+
+a.move-top span {
+    color: #9A0E14;
+    width: 35px;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    height: 35px;
+    border: 1px solid #9A0E14;
+    line-height: 1em;
+}
+
+

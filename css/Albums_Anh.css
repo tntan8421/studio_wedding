@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+html, body{
+	margin: 0;
+    font-size: 100%;
+    background: #FDE2CA !important;
+    font-family: 'Dancing Script', cursive !important;
+    font-size: 25px;
+    scroll-behavior: smooth;
+}
+
+h2{
+    color:#9A0E14
+}
+
+.navbar {
+    background-color: #ffd1dc;
+}
+
+.navbar li a {
+    color: #9A0E14 !important;
+}
+
+.navbar li a:hover {
+    color: #EA151E !important;
+}
+
+.navbar-nav  li.active a.nav-link {
+    color: #EA151E !important;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #ffd1dc;
+    z-index: 1;
+    list-style: none;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.carousel-inner img {
+    width: 100%;
+}
+
+.breadcrumb li a{
+    color: #9A0E14 !important;
+    text-decoration: none;
+}
+
+.breadcrumb li.active a{
+    color: #9A0E14 !important;
+}
+
+.pop-overlay {
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 0ms;
+    visibility: hidden;
+    opacity: 0;
+	z-index:999;
+}
+
+.pop-overlay:target {
+    visibility: visible;
+    opacity: 1;
+	z-index:1;
+}
+
+.popup {
+    background: #fff;
+    border-radius: 5px;
+    width: 35%;
+    position: relative;
+    margin: 8em auto;
+    padding: 3em 1em;
+}
+
+.popup p {
+    font-size: 15px;
+    color: #666;
+    letter-spacing: .5px;
+    line-height: 30px;
+}
+
+.popup h2 {
+    margin-top: 0;
+    color: #fff;
+
+}
+
+.popup .close {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+.popup .close:hover {
+    color: #30c39e;
+}
+
+
+/*-- //popup --*/
+/*-- popup --*/
+
+.overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 0ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+    background: #fff;
+    border-radius: 5px;
+    width: 27%;
+    position: relative;
+    margin: 15em auto;
+	padding: 5em;
+}
+.popup {
+    background: #fff;
+    border-radius: 5px;
+    width: 40%;
+    position: relative;
+    margin: 8em auto;
+	padding: 3em 1em;
+}
+.popup p{
+	font-size: 15px;
+	color: #666;
+	letter-spacing: .5px;
+	line-height: 30px;
+}
+.popup .close {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+.popup h2 {
+  margin-top: 0;
+  color: #fff;
+
+}
+.popup .close {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+.popup .close:hover {
+  color: #30c39e;
+}
+
+/*-- //popup --*/
+section.agile_stats p{
+	color:#fff;
+}
+.ga-top {
+    position: relative;
+}
+section.gallery  {
+     min-height: 66em;
+}
+.gal-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50px;
+    bottom: 10%;
+}
+.gallery-grid1:nth-child(2), .gallery-grid1:nth-child(3) {
+    margin-top: 1.7em;
+}
+p.copy-right {
+    color: #bbbbbb;
+}
+
+.social ul li {
+    display: inline-block;
+}
+
+.social ul li a {
+    color: #999;
+    text-align: center;
+}
+
+.social ul li a i {
+    height: 42px;
+    width: 42px;
+    font-size: 13px;
+    background: transparent;
+    line-height: 42px;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+.copyright p, .copyright p a {
+    color: #000000;
+    font-size: 16px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.social ul li a i:hover {
+    background:  rgb(248, 111, 134);
+    color: #fff;
+    border: 1px solid  #9A0E14;
+}
+
+a.move-top span {
+    color: #000000;
+    width: 35px;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    height: 35px;
+    border: 1px solid #000000;
+    line-height: 1em;
+}
